@@ -29,6 +29,7 @@ export default defineConfig ({
         text: 'Personalizar Ubuntu',
         items: [
           {text: 'Terminal', link: 'ubuntu/terminal'},
+          {text: 'NVM', link: 'ubuntu/nvm'},
         ]
       }
     ]
