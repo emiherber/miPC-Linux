@@ -1,4 +1,6 @@
-# Cambiar OWNER
+# Scripts genenerales
+
+## Cambiar OWNER
 
 ```sql
 DECLARE @tabla as VARCHAR(100)
