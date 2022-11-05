@@ -5,6 +5,7 @@ export default defineConfig ({
   description: 'Herramientas que instalo y configuro al instalar ubuntu.',
   lang: 'es-AR',
   appearance: true,
+  base: 'miPC-Linux',
   themeConfig: {
     nav: [
       {text: 'Inicio', link: '/'}
