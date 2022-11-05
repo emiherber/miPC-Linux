@@ -24,6 +24,12 @@ export default defineConfig ({
           {text: 'Virtual Host', link: 'db/sqlserver'},
           {text: 'Docker', link: 'db/docker'}
         ]
+      },
+      {
+        text: 'Personalizar Ubuntu',
+        items: [
+          {text: 'Terminal', link: 'ubuntu/terminal'},
+        ]
       }
     ]
   }
