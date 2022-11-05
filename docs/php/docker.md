@@ -1,5 +1,5 @@
 # Configuración general de docker
-Una vez instalado docker siguiendo la documentación oficial, crear la siguiente red local para que los diferentes contenedores se puedan comunicar.
+Una vez instalado docker siguiendo la documentación oficial, creo la siguiente red local para que los diferentes contenedores se puedan comunicar.
 
 ### Crear la red
 
@@ -17,20 +17,20 @@ Las imágenes utilizadas para los distintos proyectos son las siguientes, ya que
 - marcosqueiroz/php8.0.5-apache-sqlsvr
 
 ### Servidor PHP 7.3
-Crear la carpeta **htdocs/servidor-php73** en **opt**.
+Creo la carpeta **htdocs/servidor-php73** en **opt**.
 
 ```
 docker run -p 80:80 -v /opt/htdocs/servidor-php73:/var/www/html \
 --name servidorphp73 \
 -d marcosqueiroz/php7.3-apache-sqlsvr:latest
 ```
-Acceder modo interactivo
+Acceder en modo interactivo
 ```
 docker exec -it servidorphp73 bash
 ```
 
 ### Servidor PHP 8.0
-Crear la carpeta **htdocs/servidor-php80** en **opt**.
+Creo la carpeta **htdocs/servidor-php80** en **opt**.
 
 ```
 docker run -p 80:80 -v /opt/htdocs/servidor-php80:/var/www/html \
@@ -40,7 +40,7 @@ docker run -p 80:80 -v /opt/htdocs/servidor-php80:/var/www/html \
 docker exec -it servidorphp80 bash
 ```
 
-Acceder modo interactivo
+Acceder en modo interactivo
 ```
 docker exec -it servidorphp73 bash
 ```

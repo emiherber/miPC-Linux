@@ -4,7 +4,7 @@ Para crear un virtual host se debe agregar en el siguiente archivo **000-default
 nano /etc/apache2/sites-available/000-default.conf
 ```
 ::: warning
-En algunos casos en necesario agregar lo siguiente en el del sistema ubicado en el mismo archivo.
+En algunos casos es necesario agregar el siguiente fragmento de codigo en 000-default.conf.
 ```
 <Directory /var/www/>
   Options Indexes FollowSymLinks
@@ -50,7 +50,7 @@ Ejemplo:
 ```
 :::
 
-Para crear un virtual host se debe utilizar la siguiente plantilla:
+Para crear un virtual host utilizo la siguiente plantilla:
 ```
 # NOMBRE DEL PROYECTO
 <VirtualHost *:80>
@@ -61,3 +61,7 @@ Para crear un virtual host se debe utilizar la siguiente plantilla:
 </VirtualHost>
 ```
 
+Para acceder al sitio definido en el virtual host se debe registrar el **serverName** en el archivo
+/etc/hosts.
+Ip localhost       serverName
+127.0.0.1          sistgestioncpeceer.local
