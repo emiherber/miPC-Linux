@@ -1,11 +1,9 @@
 # Personalizar ubuntu
 
 ## Terminal
-Personalizo la terminal con ohmybash/oh-my-bash
-[oh-my-bash](https://github.com/ohmybash/oh-my-bash)
+Personalizo la terminal con ohmybash/oh-my-bash [oh-my-bash](https://github.com/ohmybash/oh-my-bash)
 
-Instalo el tema powerline
-[Powerline Theme](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline)
+Instalo el tema powerline [Powerline Theme](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline)
 
 Cargar los alias del archivo .bash_aliases en ohmybash
 if [ -f ~/.bash_aliases ]; then
