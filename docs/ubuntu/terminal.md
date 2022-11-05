@@ -1,6 +1,4 @@
-# Personalizar ubuntu
-
-## Terminal
+# Terminal
 Personalizo la terminal con ohmybash/oh-my-bash [oh-my-bash](https://github.com/ohmybash/oh-my-bash)
 
 Instalo el tema powerline [Powerline Theme](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline)
