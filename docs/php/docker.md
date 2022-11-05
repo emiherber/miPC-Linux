@@ -19,7 +19,7 @@ Las imágenes utilizadas para los distintos proyectos son las siguientes, ya que
 - marcosqueiroz/php7.3-apache-sqlsvr:latest
 - marcosqueiroz/php8.0.5-apache-sqlsvr
 
-## Servidor PHP 7.3
+### Servidor PHP 7.3
 
 Creo la carpeta **htdocs/servidor-php73** en **opt**.
 

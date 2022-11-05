@@ -1,5 +1,6 @@
 # Cambiar OWNER
-```
+
+```sql
 DECLARE @tabla as VARCHAR(100)
 DECLARE rs CURSOR FOR
 SELECT 'ownerOriginal.' + sysobjects.name FROM sysobjects WHERE xtype in('V','U','P','FN')
