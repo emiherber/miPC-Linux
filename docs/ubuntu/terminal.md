@@ -1,4 +1,5 @@
 # Terminal
+
 Personalizo la terminal con ohmybash/oh-my-bash [oh-my-bash](https://github.com/ohmybash/oh-my-bash)
 
 Instalo el tema powerline [Powerline Theme](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline)
@@ -6,14 +7,16 @@ Instalo el tema powerline [Powerline Theme](https://github.com/ohmybash/oh-my-ba
 Cargar los alias del archivo .bash_aliases en ohmybash
 
 .bashrc
-```
+
+```bash
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
 ```
 
 .bash_aliases
-```
+
+```bash
 # iniciar/parar docker para php73 + sqlserver
 function servidor_php73_sqlsrv() {
   docker $1 sqlserver2017-db
