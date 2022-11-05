@@ -37,11 +37,11 @@ import{_ as s,c as a,o as n,a as l}from"./app.d825676a.js";const u=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">    Require all granted</span></span>
 <span class="line"><span style="color:#A6ACCD;">  &lt;/Directory&gt;</span></span>
 <span class="line"><span style="color:#A6ACCD;">&lt;/VirtualHost&gt;</span></span>
-<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div></div><p>Para crear un virtual host utilizo la siguiente plantilla:</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki"><code><span class="line"><span style="color:#A6ACCD;"># NOMBRE DEL PROYECTO</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>Para crear un virtual host utilizo la siguiente plantilla:</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki"><code><span class="line"><span style="color:#A6ACCD;"># NOMBRE DEL PROYECTO</span></span>
 <span class="line"><span style="color:#A6ACCD;">&lt;VirtualHost *:80&gt;</span></span>
 <span class="line"><span style="color:#A6ACCD;">  ServerName nombreProyecto.local</span></span>
 <span class="line"><span style="color:#A6ACCD;">  ServerAdmin webmaster@localhost</span></span>
 <span class="line"><span style="color:#A6ACCD;">  DocumentRoot /var/www/html/carpetaProyecto</span></span>
 <span class="line"><span style="color:#A6ACCD;">  ErrorLog /var/www/html/carpetaProyecto/error.log</span></span>
 <span class="line"><span style="color:#A6ACCD;">&lt;/VirtualHost&gt;</span></span>
-<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>Para acceder al sitio definido en el virtual host se debe registrar el <strong>serverName</strong> en el archivo /etc/hosts.</p><table><thead><tr><th>Ip localhost</th><th style="text-align:center;">serverName</th></tr></thead><tbody><tr><td>127.0.0.1</td><td style="text-align:center;">sistgestioncpeceer.local</td></tr></tbody></table>`,8),t=[o];function p(r,c,i,C,A,d){return n(),a("div",null,t)}const h=s(e,[["render",p]]);export{u as __pageData,h as default};
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>Para acceder al sitio definido en el virtual host se debe registrar el <strong>serverName</strong> en el archivo /etc/hosts.</p><table><thead><tr><th>Ip localhost</th><th style="text-align:center;">serverName</th></tr></thead><tbody><tr><td>127.0.0.1</td><td style="text-align:center;">sistgestioncpeceer.local</td></tr></tbody></table></div>`,4),t=[o];function p(r,c,i,C,A,d){return n(),a("div",null,t)}const h=s(e,[["render",p]]);export{u as __pageData,h as default};
