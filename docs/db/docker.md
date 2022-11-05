@@ -18,14 +18,18 @@ Las imágenes utilizadas para los distintos proyectos son las siguientes, ya que
 
 ### mysql-db
 ```
-docker run -d -p 3306:3306 --name mysql-db  -e MYSQL_ROOT_PASSWORD=miClave -v /opt/mysql:/var/lib/mysql mysql
+docker run -d -p 3306:3306 --name mysql-db \
+-e MYSQL_ROOT_PASSWORD=miClave \ 
+-v /opt/mysql:/var/lib/mysql mysql
 ```
 
 ### sqlserver2017-db
 Creo la carpeta **sqlserver** en **opt**.
 
 ```
-docker run --name sqlserver2017-db -p 1433:1433 -v /opt/sqlserver:/var/backups/ -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=miClave!" \
+docker run --name sqlserver2017-db -p 1433:1433 \ 
+-v /opt/sqlserver:/var/backups/ \
+-e "ACCEPT_EULA=Y" -e "SA_PASSWORD=miClave!" \
 -d mcr.microsoft.com/mssql/server:2017-latest
 ```
 
