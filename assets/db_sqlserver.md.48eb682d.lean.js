@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.d825676a.js";const E=JSON.parse('{"title":"Cambiar OWNER","description":"","frontmatter":{},"headers":[],"relativePath":"db/sqlserver.md"}'),l={name:"db/sqlserver.md"},p=e("",2),o=[p];function c(t,r,C,i,A,_){return n(),a("div",null,o)}const D=s(l,[["render",c]]);export{E as __pageData,D as default};
