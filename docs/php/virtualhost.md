@@ -48,7 +48,6 @@ Ejemplo:
   </Directory>
 </VirtualHost>
 ```
-:::
 
 Para crear un virtual host utilizo la siguiente plantilla:
 ```
