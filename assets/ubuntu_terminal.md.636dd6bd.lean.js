@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as p}from"./app.d825676a.js";const y=JSON.parse('{"title":"Terminal","description":"","frontmatter":{},"headers":[],"relativePath":"ubuntu/terminal.md"}'),e={name:"ubuntu/terminal.md"},l=p("",8),o=[l];function r(t,c,i,C,A,h){return n(),a("div",null,o)}const m=s(e,[["render",r]]);export{y as __pageData,m as default};
