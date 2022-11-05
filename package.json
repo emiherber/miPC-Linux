@@ -1,0 +1,26 @@
+{
+  "name": "mipc-linux",
+  "version": "1.0.0",
+  "description": "configuraciones al instalar ubuntu en mi pc",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emiherber/miPC-Linux.git"
+  },
+  "author": "Emiliano H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiherber/miPC-Linux/issues"
+  },
+  "homepage": "https://github.com/emiherber/miPC-Linux#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.27",
+    "vue": "^3.2.41"
+  }
+}
