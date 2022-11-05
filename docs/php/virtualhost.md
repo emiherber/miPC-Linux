@@ -66,5 +66,5 @@ Para acceder al sitio definido en el virtual host se debe registrar el **serverN
 
 | Ip localhost   |   serverName             |
 | -------------  | :----------------------: |
-| 127.0.0.1      | sistgestioncpeceer.local |
+| 127.0.0.1      | nombreProyecto.local |
 
