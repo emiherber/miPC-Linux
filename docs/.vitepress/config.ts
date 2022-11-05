@@ -21,7 +21,7 @@ export default defineConfig ({
       {
         text: 'Base de datos',
         items: [
-          {text: 'Script Generales', link: 'db/sqlserver'},
+          {text: 'Scripts Generales', link: 'db/sqlserver'},
           {text: 'Docker', link: 'db/docker'}
         ]
       },
