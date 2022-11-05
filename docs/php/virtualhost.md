@@ -63,5 +63,8 @@ Para crear un virtual host utilizo la siguiente plantilla:
 
 Para acceder al sitio definido en el virtual host se debe registrar el **serverName** en el archivo
 /etc/hosts.
-> Ip localhost       serverName
-> 127.0.0.1          sistgestioncpeceer.local
+
+| Ip localhost   |   serverName             |
+| -------------  | :----------------------: |
+| 127.0.0.1      | sistgestioncpeceer.local |
+
