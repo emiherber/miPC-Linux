@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as l}from"./app.d825676a.js";const u=JSON.parse('{"title":"Crear virtual host","description":"","frontmatter":{},"headers":[],"relativePath":"php/virtualhost.md"}'),e={name:"php/virtualhost.md"},o=l("",8),t=[o];function p(r,c,i,C,A,d){return n(),a("div",null,t)}const h=s(e,[["render",p]]);export{u as __pageData,h as default};
