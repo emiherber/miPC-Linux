@@ -17,6 +17,13 @@ export default defineConfig ({
           {text: 'Virtual Host', link: 'php/virtualhost'},
           {text: 'Docker', link: 'php/docker'}
         ]
+      },
+      {
+        text: 'Base de datos',
+        items: [
+          {text: 'Virtual Host', link: 'db/sqlserver'},
+          {text: 'Docker', link: 'db/docker'}
+        ]
       }
     ]
   }

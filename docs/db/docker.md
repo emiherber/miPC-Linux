@@ -13,32 +13,23 @@ Una vez instalado docker siguiendo la documentación oficial, creo la siguiente 
 
 # Imagenes utilizadas
 Las imágenes utilizadas para los distintos proyectos son las siguientes, ya que tienen el driver de sql server instalado.
-- marcosqueiroz/php7.3-apache-sqlsvr:latest
-- marcosqueiroz/php8.0.5-apache-sqlsvr
+- mysql
+- mcr.microsoft.com/mssql/server:2017-latest
 
-### Servidor PHP 7.3
-Creo la carpeta **htdocs/servidor-php73** en **opt**.
-
+### mysql-db
 ```
-docker run -p 80:80 -v /opt/htdocs/servidor-php73:/var/www/html \
---name servidorphp73 \
--d marcosqueiroz/php7.3-apache-sqlsvr:latest
-```
-Acceder en modo interactivo
-```
-docker exec -it servidorphp73 bash
+docker run -d -p 3306:3306 --name mysql-db  -e MYSQL_ROOT_PASSWORD=miClave -v /opt/mysql:/var/lib/mysql mysql
 ```
 
-### Servidor PHP 8.0
-Creo la carpeta **htdocs/servidor-php80** en **opt**.
+### sqlserver2017-db
+Creo la carpeta **sqlserver** en **opt**.
 
 ```
-docker run -p 80:80 -v /opt/htdocs/servidor-php80:/var/www/html \
---name servidorphp80 \
--d marcosqueiroz/php8.0.5-apache-sqlsvr
+docker run --name sqlserver2017-db -p 1433:1433 -v /opt/sqlserver:/var/backups/ -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=miClave!" \
+-d mcr.microsoft.com/mssql/server:2017-latest
 ```
 
 Acceder en modo interactivo
 ```
-docker exec -it servidorphp80 bash
+docker exec -it sqlserver2017-db "bash"
 ```
