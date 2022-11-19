@@ -19,6 +19,12 @@ export default defineConfig ({
         ]
       },
       {
+        text: 'Desarrollo Flutter',
+        items: [
+          {text: 'Configurar Android studio', link: 'flutter/androidstudio'},
+        ]
+      },
+      {
         text: 'Base de datos',
         items: [
           {text: 'Scripts Generales', link: 'db/sqlserver'},
