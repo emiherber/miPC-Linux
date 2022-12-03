@@ -21,31 +21,31 @@ export default defineConfig ({
         text: 'Personalizar Ubuntu',
         collapsible: true,
         items: [
-          {text: 'Terminal', link: 'ubuntu/terminal'},
-          {text: 'NVM', link: 'ubuntu/nvm'},
+          {text: 'Terminal', link: '/ubuntu/terminal'},
+          {text: 'NVM', link: '/ubuntu/nvm'},
         ]
       },
       {
         text: 'Desarrollo PHP',
         collapsible: true,
         items: [
-          {text: 'Docker', link: 'php/docker'},
-          {text: 'Virtual Host', link: 'php/virtualhost'},
+          {text: 'Docker', link: '/php/docker'},
+          {text: 'Virtual Host', link: '/php/virtualhost'},
         ]
       },
       {
         text: 'Desarrollo Flutter',
         collapsible: true,
         items: [
-          {text: 'Configurar Android studio', link: 'flutter/androidstudio'},
+          {text: 'Configurar Android studio', link: '/flutter/androidstudio'},
         ]
       },
       {
         text: 'Base de datos',
         collapsible: true,
         items: [
-          {text: 'Scripts Generales', link: 'db/sqlserver'},
-          {text: 'Docker', link: 'db/docker'}
+          {text: 'Scripts Generales', link: '/db/sqlserver'},
+          {text: 'Docker', link: '/db/docker'}
         ]
       }
     ]
