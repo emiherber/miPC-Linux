@@ -18,6 +18,13 @@ export default defineConfig ({
     ],
     sidebar: [
       {
+        text: 'Lemon Cash',
+        collapsed: true,
+        items: [
+          {text: 'Prueba de Solvencia', link: '/lemoncash/pruebaSolvencia'}
+        ]
+      },
+      {
         text: 'Personalizar Ubuntu',
         collapsible: true,
         items: [
