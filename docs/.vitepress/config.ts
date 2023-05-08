@@ -38,7 +38,7 @@ export default defineConfig ({
         items: [
           {text: 'Docker', link: '/php/docker'},
           {text: 'Virtual Host', link: '/php/virtualhost'},
-          {text: 'Mercado Pago', link: '/php/mercadopago'},
+          {text: 'Mercado Pago', link: '/php/mercadopago'}
         ]
       },
       {
